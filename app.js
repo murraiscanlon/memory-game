@@ -1,3 +1,6 @@
+//TODO Get reset button working
+
+
 document.addEventListener('DOMContentLoaded', () => {
     //card options
     const cardArray = [
@@ -55,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const grid = document.querySelector('.grid')
     let resultDisplay = document.querySelector('#result')
+    let resetButton = document.querySelector('.button') //this doesn't work yet
     var cardsChosen = []
     var cardsChosenId = []
     var cardsWon = []
@@ -103,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId.push(cardId)
         this.setAttribute('src', cardArray[cardId].img)
         if (cardsChosen.length === 2) {
-            setTimeout(checkForMatch, 1500)
+            setTimeout(checkForMatch, 1000)
         }
     }
 

@@ -14,7 +14,7 @@ h1 {
     border-style: groove;
     padding: 15px;
     background-color: #fcf8e8;
-    border-radius: 75px;
+    border-radius: 10px;
 }
 
 .middle-container {
@@ -35,6 +35,10 @@ h2 {
 
 .bottom-container {
     /*position: absolute;*/
+}
+
+.button {
+    margin-top: 20px;
 }
 
 .gear1 {
