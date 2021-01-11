@@ -1,7 +1,58 @@
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: #cdfffc;
+}
+
+.top-container {
+    padding: 20px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    border-color: cornflowerblue;
+    border-style: groove;
+    padding: 15px;
+    background-color: #fcf8e8;
+    border-radius: 75px;
+}
+
+.middle-container {
+    padding:10px;
+    margin: auto;
+}
+
+h2 {
+    padding-top: 50px;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
-    text-align: center;
 }
+
+.bottom-container {
+    /*position: absolute;*/
+}
+
+.gear1 {
+    position: absolute;
+    top: 90px;
+    left: 25px;
+}
+
+.gear2 {
+    position: absolute;
+    top: 225px;
+    left: 150px;
+}
+
+.gear3 {
+    position: absolute;
+    top: 600px;
+    right: 50px;
+}
+
+
